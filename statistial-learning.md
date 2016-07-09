@@ -68,4 +68,12 @@ P(X,Y)表示分布函数，或分布密度函数。
 损失函数 度量模型一次预测的好坏；
 风险函数 度量平均意义下模型预测的好坏。
 
-1. 0-1损失函数()
+1. 0-1损失函数(0-1 loss function)
+2. 平方损失函数(quadratic loss function)
+3. 绝对损失函数(absolute loss function)
+4. 对数损失函数(logarithmic loss function) 或 对数似然损失函数(log-likelihood loss function)
+
+#### 2. 经验风险最小化(empirical risk minimization, ERM) 与 结构风险最小化(structural risk minimization, SRM)
+### 1.3.3 算法(algorithm)
+
+## 1.4 模型评估 与 模型选择
