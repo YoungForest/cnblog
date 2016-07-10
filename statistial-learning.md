@@ -194,3 +194,31 @@ b---偏置(bias)
 ### 6.2.1 最大熵原理
 
 # chapter 7 支持向量机(support vector machines, SVM)
+二类分类模型
+
+学习策略: 间隔最大化
+
+由简至繁的模型：
+
++ 线性可分支持向量机(linear support vector machine in linearly separable case), 硬间隔向量机
++ 线性支持向量机(linear support vector machine),软间隔最大化
++ 非线性支持向量机(non-linear support vector machine)
+
+硬间隔最大化(hard margin maximization)
+
+软间隔最大化(soft margin maximization)
+
+核技巧(kernel trick),
+核函数(kernel function),
+核方法(kernel method)
+
+# chapter 8 提升(boosting)方法
+
+# chapter 9 EM算法及其推广
+
+# chapter 10 隐马尔可夫模型(hidden Markov model, HMM)
+标注问题
+
+# chapter 11 条件随机场(conditional random field, CRF)
+
+# chapter 12 统计学习方法总结
