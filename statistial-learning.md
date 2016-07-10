@@ -129,5 +129,68 @@ P(X,Y)表示分布函数，或分布密度函数。
 + 条件随机场
 
 ## 1.8 分类问题
+回归问题 ：输入变量和输出变量均为连续变量的预测问题；
+
 ## 1.9 标注问题
+分类问题 ：输出变量为有限个离散变量的预测问题；
+
 ## 1.10 回归问题
+标注问题 ：输入变量和输出变量均为变量序列的预测问题。
+
+# chapter 2 感知机(perceptron)
+感知机是二类分类的线性分类模型。
+## 2.1 感知机模型
+`f(x)=sign(w·x+b)`
+w---权值(weight) 或 权值向量(weight vector)
+b---偏置(bias)
+
+## 2.2 感知机学习策略
+
+### 2.2.1 数据集的线性可分性
+
+## 2.3 感知学习算法
+
+### 2.3.1 感知学习算法的原始形式
+
+### 2.3.2 算法的收敛性
+
+### 2.3.3 感知学习算法的对偶形式
+
+# 2.4 扩展学习方法
+
++ 口袋算法(pocket algorithm)
++ 表决感知机(voted perceptron)
++ 带边缘感知机(perceptron with margin)
+
+# chapter 3 k近邻法(k-nearest neighbor, k-NN)
+是一种基本分类和回归方法。
+
+给定一个训练数据集，对新的输入实例，在训练数据集中找到与该实例最邻近的k个实例，这k个实例多数属于哪个类，就把该输入实例分为这个类。
+
+三要素：
+
++ k值的选择
++ 距离量度
++ 分类决策规则
+
+## 3.3 k近邻法的实现：kd树(kd tree)
+
+### 3.3.1 构造kd树
+
+### 3.3.2 搜索kd树
+
+# chapter 4 朴素贝叶斯法(naive Bayes)
+
+# chapter 5 决策树(decision tree)
+分类 与 回归 方法
+
+# chapter 6 逻辑斯谛回归(logistic regression) 与 最大熵模型(maximum entropy model)
+对数线性模型
+
+## 6.1 逻辑斯谛回归(logistic regression)
+
+## 6.2 最大熵模型(maximum entropy model)
+
+### 6.2.1 最大熵原理
+
+# chapter 7 支持向量机(support vector machines, SVM)
